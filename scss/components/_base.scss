@@ -1,0 +1,46 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	color: $base-text-color;
+	background: $base-background-color;
+	font: #{$base-font-size}/#{$base-line-height} $base-font-family;
+	min-width: $base-min-width;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+
+p, ul, ol {
+	margin: 0 0 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.2;
+	margin: 0 0 .5em;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: $h2-font-size;
+	font-weight: $title-font-weight;
+	font-family: $title-font-family;
+}
+
+h3 {
+	font-size: $h3-font-size;
+	font-family: $title-font-family;
+	color: #413d4b;
+}
+
+a {
+	text-decoration: none;
+}

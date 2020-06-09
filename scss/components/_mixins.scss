@@ -1,0 +1,10 @@
+@mixin base-btn {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+
+@mixin base-container {
+	margin: 0 auto;
+	padding: 0 15px;
+}

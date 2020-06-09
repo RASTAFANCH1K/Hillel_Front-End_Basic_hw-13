@@ -1,0 +1,29 @@
+.btn {
+	@include base-btn;
+	padding: 9px 14px 9px 15px;
+	border-radius: 1px;
+	border: none;
+
+	&:hover {
+		outline: none;
+	}
+}
+
+.btn-outline-primary {
+	background-color: transparent;
+	border: 1px solid #00e0d0;
+	color: $btn-color;
+	font-family: $btn-font-family;
+	font-weight: $btn-font-weight;
+
+	&:hover {
+		background-color: $btn-hover;
+		border-color: $btn-hover;
+		color: #fff;
+	}
+}
+
+button,
+input[type='button'] {
+	cursor: pointer;
+}
